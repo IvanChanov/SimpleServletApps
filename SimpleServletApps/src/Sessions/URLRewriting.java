@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+//URL rewriting
 
 @WebServlet(name = "URLRewriting", urlPatterns = { "/URLRewriting" })
 public class URLRewriting extends HttpServlet {
